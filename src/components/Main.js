@@ -49,18 +49,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={branchcut} alt="" />
           </span>
+          <p>hi my name ashwey and my friend's name is tulu.</p>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+            tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
+            more stuff on tulu tulu tulu tulu tulu tulu more stuff on tulu tulu
+            tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu more
+            stuff on tulu
           </p>
           {close}
         </article>
@@ -78,10 +72,10 @@ class Main extends React.Component {
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
+            more stuff on tulu tulu tulu tulu tulu tulu more stuff on tulu tulu
+            tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu more
+            stuff on tulu
           </p>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
