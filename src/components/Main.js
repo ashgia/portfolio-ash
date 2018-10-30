@@ -49,12 +49,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={branchcut} alt="" />
           </span>
-          <p>hi my name ashwey and my friend's name is tulu.</p>
+          {/* <p>hi my name ashwey and my friend's name is tulu.</p> */}
           <p>
-            tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
+            {/* tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
             more stuff on tulu tulu tulu tulu tulu tulu more stuff on tulu tulu
             tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu more
-            stuff on tulu
+            stuff on tulu */}
           </p>
           {close}
         </article>
@@ -72,10 +72,10 @@ class Main extends React.Component {
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
           <p>
-            tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
+            {/* tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
             more stuff on tulu tulu tulu tulu tulu tulu more stuff on tulu tulu
             tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu more
-            stuff on tulu
+            stuff on tulu */}
           </p>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
