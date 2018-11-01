@@ -20,6 +20,11 @@ import DevIcon13 from '../images/DevIcons-13.svg'
 import DevIcon14 from '../images/DevIcons-14.svg'
 import DevIcon15 from '../images/DevIcons-15.svg'
 import bootstrap1 from '../images/bootstrap1.png'
+import TFHome from '../images/TFHome.png'
+import KEHome from '../images/KEHome.jpg'
+import screening from '../images/screening.jpg'
+import works from '../images/works.jpg'
+import { Carousel } from 'react-responsive-carousel'
 
 class Main extends React.Component {
   render() {
@@ -49,12 +54,22 @@ class Main extends React.Component {
           <span className="image main">
             <img src={branchcut} alt="" />
           </span>
-          {/* <p>hi my name ashwey and my friend's name is tulu.</p> */}
+
           <p>
-            {/* tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
-            more stuff on tulu tulu tulu tulu tulu tulu more stuff on tulu tulu
-            tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu more
-            stuff on tulu */}
+            I am a full stack web developer with a background in biotechnology.
+            After realizing I wasn't going to make it as a great competitive
+            food-eater, I spent time thinking of my other dream role of being a
+            developer. I am in love with creating and designing memorable user
+            experiences, bringing aesthetic pleasure and functionality together.
+            I believe the best part about being a developer is being able to
+            bring your vision to life. I am eager to learn and take on new
+            challenges to become a better developer.
+          </p>
+          <p>
+            When I'm not writing code, you can expect to find me spending time
+            with my Cocker Spaniel puppy, Tulu, who loves to make messes more
+            than being a good boy. I am an ultimate plant mom, animal lover,
+            amateur food conoisseur, and tech enthusiast.
           </p>
           {close}
         </article>
@@ -68,23 +83,59 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            {/* <div className="carousel-container">
+            <Carousel
+              showArrows={true}
+              showThumbs={false}
+              infiniteLoop={true}
+              autoPlay={true}
+              id="carousel"
+            >
+              <div>
+                <img src="https://images.unsplash.com/photo-1531573241436-069768aa6b81?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d85acfd5e5a690e1b9fb9b9cb1ac114f&auto=format&fit=crop&w=1350&q=80" />
+                <p className="legend">
+                  Read About Recipient Sabrina Cantey's Life Changing Story
+                </p>
+              </div>
+              <div>
+                <img src="https://images.unsplash.com/photo-1536551739350-d473d0f5d66a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=008122b00ce6617ca065ffff90c78e11&auto=format&fit=crop&w=1350&q=80" />
+                <p className="legend">
+                  Read About Recipient Sarah Finley's Life Changing Story
+                </p>
+              </div>
+              <div>
+                <img src="https://images.unsplash.com/photo-1498568715259-5c1dc96aa8e7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ad416811db9057a089db51b5b7f97794&auto=format&fit=crop&w=1350&q=80" />
+                <p className="legend">
+                  Read About Recipient Terry Kavern's Life Changing Story
+                </p>
+              </div>
+            </Carousel>
+          </div> */}
+            <img src={TFHome} alt="" />
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
+          <h3>Tulu's Friends</h3>
           <p>
-            {/* tulu tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu
-            more stuff on tulu tulu tulu tulu tulu tulu more stuff on tulu tulu
-            tulu tulu tulu tulu more stuff on tulu tulu tulu tulu tulu tulu more
-            stuff on tulu */}
+            As an animal lover, I am passionate about helping pets spend less
+            time in an animal shelter and encourage pet adoption. Tulu’s Friends
+            is a place for those interested in adopting a pet, where you can
+            browse local shelters and directly match with pets by simply
+            creating a profile. Local shelters can view your pet interest on
+            your profile and directly contact you.
           </p>
+          <br />
+          <span className="image main">
+            <img src={KEHome} alt="" />
+          </span>
+          <h3>Kitney Exchange</h3>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            The Kitney Exchange addresses the lack of kidney transplants both
+            the U.S and the world are facing. There are enough donor/recipient
+            pairs in the country that can be matched and created into a donor
+            chain, ultimately benefiting all participants. Kitney Exchange is a
+            platform for recipient and donor pairs that would like to be matched
+            with other incompatible pairs in their local area. We developed a
+            system where multiple pairs can be matched in a chain.
           </p>
           {close}
         </article>
