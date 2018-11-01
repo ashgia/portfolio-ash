@@ -20,11 +20,10 @@ import DevIcon13 from '../images/DevIcons-13.svg'
 import DevIcon14 from '../images/DevIcons-14.svg'
 import DevIcon15 from '../images/DevIcons-15.svg'
 import bootstrap1 from '../images/bootstrap1.png'
-import TFHome from '../images/TFHome.png'
+import TFHome from '../images/TFHome.jpg'
 import KEHome from '../images/KEHome.jpg'
 import screening from '../images/screening.jpg'
 import works from '../images/works.jpg'
-import { Carousel } from 'react-responsive-carousel'
 
 class Main extends React.Component {
   render() {
