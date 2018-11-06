@@ -23,3 +23,8 @@
   max-width: 432px;
   max-height: 289px;
 }
+
+.title-github {
+  display: flex;
+  justify-content: space-between;
+}

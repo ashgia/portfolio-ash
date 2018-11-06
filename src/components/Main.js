@@ -113,7 +113,17 @@ class Main extends React.Component {
             <img src={TFHome} alt="" />
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
-          <h3>Tulu's Friends</h3>
+          <div className="title-github">
+            <h3>Tulu's Friends</h3>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Kitney-Exchange/kitney-exchange"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </div>
           <p>
             As an animal lover, I am passionate about helping pets spend less
             time in an animal shelter and encourage pet adoption. Tulu’s Friends
@@ -126,7 +136,18 @@ class Main extends React.Component {
           <span className="image main">
             <img src={KEHome} alt="" />
           </span>
-          <h3>Kitney Exchange</h3>
+          <div className="title-github">
+            <h3>Kitney Exchange</h3>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Kitney-Exchange/kitney-exchange"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </div>
+
           <p>
             The Kitney Exchange addresses the lack of kidney transplants both
             the U.S and the world are facing. There are enough donor/recipient
@@ -136,6 +157,7 @@ class Main extends React.Component {
             with other incompatible pairs in their local area. We developed a
             system where multiple pairs can be matched in a chain.
           </p>
+
           {close}
         </article>
 
