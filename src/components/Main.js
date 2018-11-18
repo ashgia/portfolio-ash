@@ -20,27 +20,27 @@ import DevIcon13 from '../images/DevIcons-13.svg'
 import DevIcon14 from '../images/DevIcons-14.svg'
 import DevIcon15 from '../images/DevIcons-15.svg'
 import bootstrap1 from '../images/bootstrap1.png'
-import TFHomeCompress from '../images/TFHomeCompress.jpg'
-import TF2 from '../images/TF2.png'
-import TF3 from '../images/TF3.png'
-import TF4 from '../images/TF4.png'
-import TF5 from '../images/TF5.png'
-import TF6 from '../images/TF6.png'
-import TF7 from '../images/TF7.png'
-import TF8 from '../images/TF8.png'
-import TF9 from '../images/TF9.png'
-import TF10 from '../images/TF10.png'
+// import TFHomeCompress from '../images/TFHomeCompress.jpg'
+// import TF2 from '../images/TF2.png'
+// import TF3 from '../images/TF3.png'
+// import TF4 from '../images/TF4.png'
+// import TF5 from '../images/TF5.png'
+// import TF6 from '../images/TF6.png'
+// import TF7 from '../images/TF7.png'
+// import TF8 from '../images/TF8.png'
+// import TF9 from '../images/TF9.png'
+// import TF10 from '../images/TF10.png'
 import KEHome from '../images/KEHome.png'
-import KE2 from '../images/KE2.png'
-import KE3 from '../images/KE3.png'
-import KE4 from '../images/KE4.png'
-import KE5 from '../images/KE5.png'
-import KE6 from '../images/KE6.png'
-import KE7 from '../images/KE7.png'
-import KE8 from '../images/KE8.png'
-import KE9 from '../images/KE9.png'
-import KE10 from '../images/KE10.png'
-import KE11 from '../images/KE11.png'
+// import KE2 from '../images/KE2.png'
+// import KE3 from '../images/KE3.png'
+// import KE4 from '../images/KE4.png'
+// import KE5 from '../images/KE5.png'
+// import KE6 from '../images/KE6.png'
+// import KE7 from '../images/KE7.png'
+// import KE8 from '../images/KE8.png'
+// import KE9 from '../images/KE9.png'
+// import KE10 from '../images/KE10.png'
+// import KE11 from '../images/KE11.png'
 
 import screening from '../images/screening.jpg'
 import works from '../images/works.jpg'
@@ -104,7 +104,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <div className="carousel">
+            {/* <div className="carousel">
               <Carousel
                 showArrows={false}
                 showThumbs={false}
@@ -144,7 +144,7 @@ class Main extends React.Component {
                   <img src={TF10} />
                 </div>
               </Carousel>
-            </div>
+            </div> */}
 
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
@@ -169,7 +169,7 @@ class Main extends React.Component {
           </p>
           <br />
           <span className="image main">
-            <div className="image main">
+            {/* <div className="image main">
               <div className="carousel">
                 <Carousel
                   showArrows={false}
@@ -216,8 +216,8 @@ class Main extends React.Component {
                   </div>
                 </Carousel>
               </div>
-            </div>
-            {/* <img src={KEHome} alt="" /> */}
+            </div> */}
+            <img src={KEHome} alt="" />
           </span>
           <div className="title-github">
             <h3>Kitney Exchange</h3>
