@@ -20,10 +20,32 @@ import DevIcon13 from '../images/DevIcons-13.svg'
 import DevIcon14 from '../images/DevIcons-14.svg'
 import DevIcon15 from '../images/DevIcons-15.svg'
 import bootstrap1 from '../images/bootstrap1.png'
-import TFHome from '../images/TFhome.png'
-import KEHome from '../images/KEHome.jpg'
+import TFHome from '../images/TFHome.png'
+import TF2 from '../images/TF2.png'
+import TF3 from '../images/TF3.png'
+import TF4 from '../images/TF4.png'
+import TF5 from '../images/TF5.png'
+import TF6 from '../images/TF6.png'
+import TF7 from '../images/TF7.png'
+import TF8 from '../images/TF8.png'
+import TF9 from '../images/TF9.png'
+import TF10 from '../images/TF10.png'
+import KEHome from '../images/KEHome.png'
+import KE2 from '../images/KE2.png'
+import KE3 from '../images/KE3.png'
+import KE4 from '../images/KE4.png'
+import KE5 from '../images/KE5.png'
+import KE6 from '../images/KE6.png'
+import KE7 from '../images/KE7.png'
+import KE8 from '../images/KE8.png'
+import KE9 from '../images/KE9.png'
+import KE10 from '../images/KE10.png'
+import KE11 from '../images/KE11.png'
+
 import screening from '../images/screening.jpg'
 import works from '../images/works.jpg'
+import { Carousel } from 'react-responsive-carousel'
+import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 class Main extends React.Component {
   render() {
@@ -82,35 +104,48 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            {/* <div className="carousel-container">
-            <Carousel
-              showArrows={true}
-              showThumbs={false}
-              infiniteLoop={true}
-              autoPlay={true}
-              id="carousel"
-            >
-              <div>
-                <img src="https://images.unsplash.com/photo-1531573241436-069768aa6b81?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d85acfd5e5a690e1b9fb9b9cb1ac114f&auto=format&fit=crop&w=1350&q=80" />
-                <p className="legend">
-                  Read About Recipient Sabrina Cantey's Life Changing Story
-                </p>
-              </div>
-              <div>
-                <img src="https://images.unsplash.com/photo-1536551739350-d473d0f5d66a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=008122b00ce6617ca065ffff90c78e11&auto=format&fit=crop&w=1350&q=80" />
-                <p className="legend">
-                  Read About Recipient Sarah Finley's Life Changing Story
-                </p>
-              </div>
-              <div>
-                <img src="https://images.unsplash.com/photo-1498568715259-5c1dc96aa8e7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ad416811db9057a089db51b5b7f97794&auto=format&fit=crop&w=1350&q=80" />
-                <p className="legend">
-                  Read About Recipient Terry Kavern's Life Changing Story
-                </p>
-              </div>
-            </Carousel>
-          </div> */}
-            <img src={TFHome} alt="" />
+            <div className="carousel">
+              <Carousel
+                showArrows={false}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={false}
+                showStatus={false}
+                id="carousel"
+              >
+                <div>
+                  <img src={TFHome} />
+                </div>
+                <div>
+                  <img src={TF2} />
+                </div>
+                <div>
+                  <img src={TF3} />
+                </div>
+                <div>
+                  <img src={TF4} />
+                </div>
+                <div>
+                  <img src={TF5} />
+                </div>
+                <div>
+                  <img src={TF6} />
+                </div>
+                <div>
+                  <img src={TF7} />
+                </div>
+                <div>
+                  <img src={TF8} />
+                </div>
+                <div>
+                  <img src={TF9} />
+                </div>
+                <div>
+                  <img src={TF10} />
+                </div>
+              </Carousel>
+            </div>
+
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
           <div className="title-github">
@@ -118,7 +153,7 @@ class Main extends React.Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/Kitney-Exchange/kitney-exchange"
+              href="https://github.com/ashgia/pet-adoption"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
@@ -134,7 +169,55 @@ class Main extends React.Component {
           </p>
           <br />
           <span className="image main">
-            <img src={KEHome} alt="" />
+            <div className="image main">
+              <div className="carousel">
+                <Carousel
+                  showArrows={false}
+                  showThumbs={false}
+                  infiniteLoop={true}
+                  autoPlay={false}
+                  showStatus={false}
+                  // centerSlidePercentage={100}
+                  // width={800}
+                  id="carousel"
+                >
+                  <div>
+                    <img src={KEHome} />
+                  </div>
+                  <div>
+                    <img src={KE2} />
+                  </div>
+                  <div>
+                    <img src={KE3} />
+                  </div>
+                  <div>
+                    <img src={KE4} />
+                  </div>
+                  <div>
+                    <img src={KE5} />
+                  </div>
+                  <div>
+                    <img src={KE6} />
+                  </div>
+                  <div>
+                    <img src={KE7} />
+                  </div>
+                  <div>
+                    <img src={KE8} />
+                  </div>
+                  <div>
+                    <img src={KE9} />
+                  </div>
+                  <div>
+                    <img src={KE10} />
+                  </div>
+                  <div>
+                    <img src={KE11} />
+                  </div>
+                </Carousel>
+              </div>
+            </div>
+            {/* <img src={KEHome} alt="" /> */}
           </span>
           <div className="title-github">
             <h3>Kitney Exchange</h3>
