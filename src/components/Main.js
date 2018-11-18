@@ -20,7 +20,7 @@ import DevIcon13 from '../images/DevIcons-13.svg'
 import DevIcon14 from '../images/DevIcons-14.svg'
 import DevIcon15 from '../images/DevIcons-15.svg'
 import bootstrap1 from '../images/bootstrap1.png'
-import TFHome from '../images/TFHome.png'
+import TFHomeCompress from '../images/TFHomeCompress.jpg'
 import TF2 from '../images/TF2.png'
 import TF3 from '../images/TF3.png'
 import TF4 from '../images/TF4.png'
@@ -114,7 +114,7 @@ class Main extends React.Component {
                 id="carousel"
               >
                 <div>
-                  <img src={TFHome} />
+                  <img src={TFHomeCompress} />
                 </div>
                 <div>
                   <img src={TF2} />
