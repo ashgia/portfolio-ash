@@ -20,7 +20,7 @@ import DevIcon13 from '../images/DevIcons-13.svg'
 import DevIcon14 from '../images/DevIcons-14.svg'
 import DevIcon15 from '../images/DevIcons-15.svg'
 import bootstrap1 from '../images/bootstrap1.png'
-// import TFHomeCompress from '../images/TFHomeCompress.jpg'
+import TFHomeCompress from '../images/TFHomeCompress.jpg'
 // import TF2 from '../images/TF2.png'
 // import TF3 from '../images/TF3.png'
 // import TF4 from '../images/TF4.png'
@@ -104,47 +104,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            {/* <div className="carousel">
-              <Carousel
-                showArrows={false}
-                showThumbs={false}
-                infiniteLoop={true}
-                autoPlay={false}
-                showStatus={false}
-                id="carousel"
-              >
-                <div>
-                  <img src={TFHomeCompress} />
-                </div>
-                <div>
-                  <img src={TF2} />
-                </div>
-                <div>
-                  <img src={TF3} />
-                </div>
-                <div>
-                  <img src={TF4} />
-                </div>
-                <div>
-                  <img src={TF5} />
-                </div>
-                <div>
-                  <img src={TF6} />
-                </div>
-                <div>
-                  <img src={TF7} />
-                </div>
-                <div>
-                  <img src={TF8} />
-                </div>
-                <div>
-                  <img src={TF9} />
-                </div>
-                <div>
-                  <img src={TF10} />
-                </div>
-              </Carousel>
-            </div> */}
+            <img src={TFHomeCompress} alt="" />
 
             {/* <h3 className="major">Tulu's Friends</h3> */}
           </span>
@@ -169,54 +129,6 @@ class Main extends React.Component {
           </p>
           <br />
           <span className="image main">
-            {/* <div className="image main">
-              <div className="carousel">
-                <Carousel
-                  showArrows={false}
-                  showThumbs={false}
-                  infiniteLoop={true}
-                  autoPlay={false}
-                  showStatus={false}
-                  // centerSlidePercentage={100}
-                  // width={800}
-                  id="carousel"
-                >
-                  <div>
-                    <img src={KEHome} />
-                  </div>
-                  <div>
-                    <img src={KE2} />
-                  </div>
-                  <div>
-                    <img src={KE3} />
-                  </div>
-                  <div>
-                    <img src={KE4} />
-                  </div>
-                  <div>
-                    <img src={KE5} />
-                  </div>
-                  <div>
-                    <img src={KE6} />
-                  </div>
-                  <div>
-                    <img src={KE7} />
-                  </div>
-                  <div>
-                    <img src={KE8} />
-                  </div>
-                  <div>
-                    <img src={KE9} />
-                  </div>
-                  <div>
-                    <img src={KE10} />
-                  </div>
-                  <div>
-                    <img src={KE11} />
-                  </div>
-                </Carousel>
-              </div>
-            </div> */}
             <img src={KEHome} alt="" />
           </span>
           <div className="title-github">

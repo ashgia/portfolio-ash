@@ -28,7 +28,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-.carousel .slide {
-  background: transparent;
-}
